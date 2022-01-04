@@ -1,10 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import React from 'react';      //리액트의 사용을 위해 import
+import ReactDOM from 'react-dom';       //리액트 DOM의 사용을 위해
+import './index.css';                   //css import
+import App from './App';                //App Component import
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
+ReactDOM.render(            //ReactDOM내부의 컴포넌트들을 'root' 엘리먼트에 rendering
   <React.StrictMode>
     <App />
   </React.StrictMode>,
